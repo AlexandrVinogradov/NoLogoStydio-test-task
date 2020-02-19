@@ -5,3 +5,6 @@
   display: -webkit-flex; 
   display: flex; 
 }
+@mixin red() {
+  color: red;
+}

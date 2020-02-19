@@ -1,0 +1,37 @@
+.ant-dropdown-hidden {
+  display: block;
+
+}
+.ant-dropdown {
+
+}
+.ant-dropdown-menu {
+  margin-top: -3px;
+}
+
+.ant-dropdown-menu::before {
+  content: '';
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 11px solid white;
+
+  position: absolute;
+  // margin: 0px 0px 0px 40%;
+
+  top: -6px;
+  left: 79px;
+
+  // margin: 0 auto;
+}
+
+
+.ant-dropdown-menu-item {
+  padding-top: 10px;
+  padding-left: 14px;
+}
+.ant-dropdown-menu-item > a {
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+  // сделать паддинги!!!!!!!!!!!!!!!!!!!]
+}
