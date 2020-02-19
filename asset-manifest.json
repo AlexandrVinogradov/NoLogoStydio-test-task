@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/NoLogoStydio-test-task/static/css/main.154182d4.chunk.css",
+    "main.js": "/NoLogoStydio-test-task/static/js/main.5aaacfbd.chunk.js",
+    "main.js.map": "/NoLogoStydio-test-task/static/js/main.5aaacfbd.chunk.js.map",
+    "runtime-main.js": "/NoLogoStydio-test-task/static/js/runtime-main.26db0908.js",
+    "runtime-main.js.map": "/NoLogoStydio-test-task/static/js/runtime-main.26db0908.js.map",
+    "static/js/2.22b145b4.chunk.js": "/NoLogoStydio-test-task/static/js/2.22b145b4.chunk.js",
+    "static/js/2.22b145b4.chunk.js.map": "/NoLogoStydio-test-task/static/js/2.22b145b4.chunk.js.map",
+    "index.html": "/NoLogoStydio-test-task/index.html",
+    "precache-manifest.9a92f92c10a372572fe547528e38ef25.js": "/NoLogoStydio-test-task/precache-manifest.9a92f92c10a372572fe547528e38ef25.js",
+    "service-worker.js": "/NoLogoStydio-test-task/service-worker.js",
+    "static/css/main.154182d4.chunk.css.map": "/NoLogoStydio-test-task/static/css/main.154182d4.chunk.css.map",
+    "static/js/2.22b145b4.chunk.js.LICENSE.txt": "/NoLogoStydio-test-task/static/js/2.22b145b4.chunk.js.LICENSE.txt",
+    "static/media/Chevron.svg": "/NoLogoStydio-test-task/static/media/Chevron.4984c997.svg",
+    "static/media/Chevron_white.svg": "/NoLogoStydio-test-task/static/media/Chevron_white.1c840b72.svg",
+    "static/media/index.css": "/NoLogoStydio-test-task/static/media/Roboto-Regular.11eabca2.ttf",
+    "static/media/icon-01-menuFirstLevel.svg": "/NoLogoStydio-test-task/static/media/icon-01-menuFirstLevel.98f67dd2.svg",
+    "static/media/icon-01-menuSecondLevel__lemonade.svg": "/NoLogoStydio-test-task/static/media/icon-01-menuSecondLevel__lemonade.575bd781.svg",
+    "static/media/icon-02-menuFirstLevel.svg": "/NoLogoStydio-test-task/static/media/icon-02-menuFirstLevel.940fa65c.svg",
+    "static/media/icon-02-menuSecondLevel__gas.svg": "/NoLogoStydio-test-task/static/media/icon-02-menuSecondLevel__gas.155064eb.svg",
+    "static/media/icon-03-menuFirstLevel.svg": "/NoLogoStydio-test-task/static/media/icon-03-menuFirstLevel.cccb366a.svg",
+    "static/media/icon-03-menuSecondLevel__flask.svg": "/NoLogoStydio-test-task/static/media/icon-03-menuSecondLevel__flask.62e1d92e.svg",
+    "static/media/icon-04-menuFirstLevel.svg": "/NoLogoStydio-test-task/static/media/icon-04-menuFirstLevel.e75c1da4.svg",
+    "static/media/icon-05-menuFirstLevel.svg": "/NoLogoStydio-test-task/static/media/icon-05-menuFirstLevel.13fdc061.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26db0908.js",
+    "static/js/2.22b145b4.chunk.js",
+    "static/css/main.154182d4.chunk.css",
+    "static/js/main.5aaacfbd.chunk.js"
+  ]
+}
