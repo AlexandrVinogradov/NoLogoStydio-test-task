@@ -1,0 +1,55 @@
+@import "mixins";
+
+.menuFirstLevel {
+  @include flex();
+}
+.menuItem_flatRack {
+  @include flex();
+  align-items: center; 
+  padding: 19px 23px 18px 13px; 
+  border-left: 1px solid rgba(0, 0, 0, 0.1); 
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.menuItem_openTop {
+  @include flex();
+  align-items: center; 
+  padding: 14px 30px 17px 16px; 
+}
+.menuItem_tankConteiner {
+  @include flex();
+  align-items: center; 
+  padding: 13px 21px 15px 30px; 
+  color: white;
+  background: #144F7F;
+}
+.menuItem_termConteiner {
+  @include flex();
+  align-items: center; 
+  padding: 22px 23px 11px 22px; 
+}
+.menuItem_universalConteiner {
+  @include flex();
+  align-items: center; 
+  padding: 22px 23px 11px 22px; 
+  border-left: 1px solid rgba(0, 0, 0, 0.1); 
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menuItem__title_grey {
+  color: #A8A8A8;
+  @include flex();
+  padding-left: 12px;
+  flex-direction: column;
+}
+.menuItem__title_blue {
+  color: #123653;
+  @include flex();
+  padding-left: 12px;
+  flex-direction: column;
+}
+
+.menuItem__title_white {
+  @include flex();
+  padding-left: 12px;
+  flex-direction: column;
+}
