@@ -1,63 +1,99 @@
 @import "mixins";
+$border: 1px solid rgba(255, 255, 255, 0.15);
 
 .menuSecondLevel {
   @include flex();
-}
-.menuItem_food {
-  @include flex();
-  align-items: center; 
-  padding: 13px 19px 12px 11px; 
-  background: #E8EBEE;
-  border: 1px solid rgba(18, 54, 83, 0.1);
-  box-sizing: border-box;
-  font-size: 12px;
-}
-.menuItem__title_food {
-  @include flex();
-  padding-left: 6px;
-  flex-direction: column;
-  text-transform: uppercase;
-  color: #123653;
-  line-height: 15px;
-}
 
-.menuItem_gas {
-  @include flex();
-  align-items: center; 
-  padding: 13px 19px 12px 10px; 
-  background: #144F7F;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  box-sizing: border-box;
-  font-size: 12px;
-  line-height: 15px;
-}
-.menuItem__title_gas {
-  @include flex();
-  padding-left: 6px;
-  flex-direction: column;
-  text-transform: uppercase;
-  color: white;
-}
+  .menuItem_food {
+    @include flex();
+    align-items: center; 
+    padding: 13px 19px 12px 11px; 
+    background: #E8EBEE;
+    border: 1px solid rgba(18, 54, 83, 0.1);
+    box-sizing: border-box;
+    font-size: 12px;
 
-.menuItem_chemists {
-  @include flex();
-  align-items: center; 
-  padding: 14px 19px 12px 11px; 
-  background: #144F7F;
-  // border: 1px solid rgba(255, 255, 255, 0.15);
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  border-right: 1px solid rgba(255, 255, 255, 0.15);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-  box-sizing: border-box;
-  font-size: 12px;
-  line-height: 15px;
-}
-.menuItem__title_chemists {
-  @include flex();
-  padding-left: 6px;
-  flex-direction: column;
-  text-transform: uppercase;
-  color: white;
+    .menuItem__title_food {
+      @include flex();
+      padding-left: 6px;
+      flex-direction: column;
+      text-transform: uppercase;
+      color: #123653;
+      line-height: 15px;
+    }
+  }
+  .menuItem_food::after {
+    content: '';
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 11px solid white;
+    position: absolute;
+    margin: 9 auto;
+    top: 135px;
+    left: 84px;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .menuItem_food:hover::after {
+    opacity: 1;
+    transition-delay: 0.1s;
+  }
+
+  .menuItem_gas {
+    @include flex();
+    align-items: center; 
+    padding: 13px 19px 12px 10px; 
+    background: #144F7F;
+    border: $border;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 15px;
+
+    .menuItem__title_gas {
+      @include flex();
+      padding-left: 6px;
+      flex-direction: column;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+
+  .menuItem_chemists {
+    @include flex();
+    align-items: center; 
+    padding: 14px 19px 12px 11px; 
+    background: #144F7F;
+    border-top: $border;
+    border-right: $border;
+    border-bottom: $border;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 15px;
+
+    .menuItem__title_chemists {
+      @include flex();
+      padding-left: 6px;
+      flex-direction: column;
+      text-transform: uppercase;
+      color: white;
+    }
+  }
+  .menuItem_chemists::after {
+    content: '';
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 11px solid white;
+    position: absolute;
+    margin: 9 auto;
+    top: 135px;
+    left: 435px;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .menuItem_chemists:hover::after {
+    opacity: 1;
+    transition-delay: 0.1s;
+  }
 }
 
 .chevron {
@@ -66,9 +102,3 @@
 .chevron_white {
   padding-left: 12px;
 }
-
-.dropdown {
-  @include red();
-  color:red;
-}
-
