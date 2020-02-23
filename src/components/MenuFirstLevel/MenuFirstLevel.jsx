@@ -25,7 +25,6 @@ class MenuFirstLevel extends React.Component {
       termConteinerWidth: 0,
       uniConteinerWidth: 0,
       dotsBlockWidth: 75,
-      navWidth: 1024,
       isHideOpen: false,
       isHideTank: false,
       isHideTerm: false,
@@ -43,9 +42,7 @@ class MenuFirstLevel extends React.Component {
         termConteinerWidth: this.termConteinerRef.current.clientWidth,
         uniConteinerWidth: this.uniConteinerRef.current.clientWidth,
       },
-      () => {
-        this.navWidthCalculate()
-      }
+      this.navWidthCalculate
     )
   }
 
@@ -64,27 +61,23 @@ class MenuFirstLevel extends React.Component {
       termConteinerWidth,
       uniConteinerWidth,
       windowWidth,
-      navWidth,
       dotsBlockWidth,
     } = this.state
+
+    const navWidth =
+      flatConteinerWidth + openConteinerWidth + tankConteinerWidth + termConteinerWidth + uniConteinerWidth
 
     const widthLarge = navWidth - uniConteinerWidth + dotsBlockWidth
     const widthMedium = navWidth - uniConteinerWidth - termConteinerWidth + dotsBlockWidth
     const widthSmall = navWidth - uniConteinerWidth - termConteinerWidth - tankConteinerWidth + dotsBlockWidth
 
-    this.setState(
-      {
-        navWidth: flatConteinerWidth + openConteinerWidth + tankConteinerWidth + termConteinerWidth + uniConteinerWidth,
-      },
-      () => {
-        const isHideOpen = windowWidth < widthSmall
-        const isHideTank = windowWidth < widthMedium
-        const isHideTerm = windowWidth < widthLarge
-        const isHideUni = windowWidth < this.state.navWidth
+    const isHideOpen = windowWidth < widthSmall
+    const isHideTank = windowWidth < widthMedium
+    const isHideTerm = windowWidth < widthLarge
 
-        this.setState({ isHideOpen, isHideTank, isHideTerm, isHideUni })
-      }
-    )
+    const isHideUni = windowWidth < navWidth
+
+    this.setState({ isHideOpen, isHideTank, isHideTerm, isHideUni })
   }
 
   componentWillUnmount = () => {
