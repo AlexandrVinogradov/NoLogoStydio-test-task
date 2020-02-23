@@ -28,7 +28,7 @@ const menuChemicals = (
         <span className="solvents">Растворители</span> <img alt="перевозка химических грузов" src={chevronRight} />
         <a href="/">Нитрилакриловая кислота</a>
       </a>
-    </Menu.Item> 
+    </Menu.Item>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="/">
         <span className="salt">Соли</span> <img alt="перевозка химических грузов" src={chevronRight} />
@@ -53,6 +53,6 @@ const menuChemicals = (
       </a>
     </Menu.Item>
   </Menu>
-  )
+)
 
 export default menuChemicals

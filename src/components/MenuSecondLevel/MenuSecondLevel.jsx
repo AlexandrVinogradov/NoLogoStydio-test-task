@@ -14,7 +14,7 @@ const MenuSecondLevel = () => {
     <ul className={s.menuSecondLevel}>
       <Dropdown overlay={menuFood}>
         <li className={s.menuItem_food}>
-          <div> 
+          <div>
             <img alt="flat Rack контецнеры" src={icon01} />
           </div>
           <div className={s.menuItem__title_food}>

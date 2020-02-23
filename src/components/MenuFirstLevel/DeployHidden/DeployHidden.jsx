@@ -20,13 +20,13 @@ const DeployHidden = props => {
   const { isHideOpen, isHideTank, isHideTerm } = props
   return (
     <Dropdown overlay={() => <HiddenMenu isHideOpen={isHideOpen} isHideTank={isHideTank} isHideTerm={isHideTerm} />}>
-        <div className={s.dotsBlockParent}>
-          <div className={s.dotsBlock}>
-            <div className={s.dotsBlock__dot}> </div>
-            <div className={s.dotsBlock__dot}> </div>
-            <div className={s.dotsBlock__dot}> </div>
-          </div>
+      <div className={s.dotsBlockParent}>
+        <div className={s.dotsBlock}>
+          <div className={s.dotsBlock__dot}> </div>
+          <div className={s.dotsBlock__dot}> </div>
+          <div className={s.dotsBlock__dot}> </div>
         </div>
+      </div>
     </Dropdown>
   )
 }
