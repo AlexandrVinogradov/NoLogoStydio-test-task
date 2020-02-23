@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b5925d169a417505df5638175218273",
+    "revision": "99f6ce07d2baf43ff112838b2bdf0742",
     "url": "/NoLogoStydio-test-task/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NoLogoStydio-test-task/static/css/2.5bc4965f.chunk.css"
   },
   {
-    "revision": "24fa6f05fdbafadf4ee3",
-    "url": "/NoLogoStydio-test-task/static/css/main.7ac6e84f.chunk.css"
+    "revision": "d601573497cb04aa223c",
+    "url": "/NoLogoStydio-test-task/static/css/main.d9843af8.chunk.css"
   },
   {
     "revision": "7a7a1fcf38e3ec0327fc",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NoLogoStydio-test-task/static/js/2.0268f9ca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "24fa6f05fdbafadf4ee3",
-    "url": "/NoLogoStydio-test-task/static/js/main.0bd2f33a.chunk.js"
+    "revision": "d601573497cb04aa223c",
+    "url": "/NoLogoStydio-test-task/static/js/main.44c6dda7.chunk.js"
   },
   {
     "revision": "438bfcf0efefcba7d408",
