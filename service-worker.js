@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NoLogoStydio-test-task/precache-manifest.018d226e228543ae67015c15a4000791.js"
+  "/NoLogoStydio-test-task/precache-manifest.37392cfd852c0da6a32f4fe30bbe6d6b.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/NoLogoStydio-test-task/static/css/main.a1298cac.chunk.css",
-    "main.js": "/NoLogoStydio-test-task/static/js/main.89910512.chunk.js",
-    "main.js.map": "/NoLogoStydio-test-task/static/js/main.89910512.chunk.js.map",
+    "main.css": "/NoLogoStydio-test-task/static/css/main.502e7ea2.chunk.css",
+    "main.js": "/NoLogoStydio-test-task/static/js/main.28d20be1.chunk.js",
+    "main.js.map": "/NoLogoStydio-test-task/static/js/main.28d20be1.chunk.js.map",
     "runtime-main.js": "/NoLogoStydio-test-task/static/js/runtime-main.26db0908.js",
     "runtime-main.js.map": "/NoLogoStydio-test-task/static/js/runtime-main.26db0908.js.map",
     "static/css/2.5bc4965f.chunk.css": "/NoLogoStydio-test-task/static/css/2.5bc4965f.chunk.css",
     "static/js/2.0268f9ca.chunk.js": "/NoLogoStydio-test-task/static/js/2.0268f9ca.chunk.js",
     "static/js/2.0268f9ca.chunk.js.map": "/NoLogoStydio-test-task/static/js/2.0268f9ca.chunk.js.map",
     "index.html": "/NoLogoStydio-test-task/index.html",
-    "precache-manifest.018d226e228543ae67015c15a4000791.js": "/NoLogoStydio-test-task/precache-manifest.018d226e228543ae67015c15a4000791.js",
+    "precache-manifest.37392cfd852c0da6a32f4fe30bbe6d6b.js": "/NoLogoStydio-test-task/precache-manifest.37392cfd852c0da6a32f4fe30bbe6d6b.js",
     "service-worker.js": "/NoLogoStydio-test-task/service-worker.js",
     "static/css/2.5bc4965f.chunk.css.map": "/NoLogoStydio-test-task/static/css/2.5bc4965f.chunk.css.map",
-    "static/css/main.a1298cac.chunk.css.map": "/NoLogoStydio-test-task/static/css/main.a1298cac.chunk.css.map",
+    "static/css/main.502e7ea2.chunk.css.map": "/NoLogoStydio-test-task/static/css/main.502e7ea2.chunk.css.map",
     "static/js/2.0268f9ca.chunk.js.LICENSE.txt": "/NoLogoStydio-test-task/static/js/2.0268f9ca.chunk.js.LICENSE.txt",
     "static/media/Chevron Right.svg": "/NoLogoStydio-test-task/static/media/Chevron Right.fb78bf69.svg",
     "static/media/Chevron.svg": "/NoLogoStydio-test-task/static/media/Chevron.4984c997.svg",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.26db0908.js",
     "static/css/2.5bc4965f.chunk.css",
     "static/js/2.0268f9ca.chunk.js",
-    "static/css/main.a1298cac.chunk.css",
-    "static/js/main.89910512.chunk.js"
+    "static/css/main.502e7ea2.chunk.css",
+    "static/js/main.28d20be1.chunk.js"
   ]
 }
