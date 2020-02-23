@@ -25,7 +25,7 @@ class MenuFirstLevel extends React.Component {
       termConteinerWidth: 0,
       uniConteinerWidth: 0,
       dotsBlockWidth: 75,
-      navWidth: 0,
+      navWidth: 1024,
       isHideOpen: false,
       isHideTank: false,
       isHideTerm: false,
@@ -90,7 +90,7 @@ class MenuFirstLevel extends React.Component {
   componentWillUnmount = () => {
     window.removeEventListener('resize', this.handleResize)
   }
-  
+
   handleResize = () => {
     this.setState({
       windowWidth: window.innerWidth,

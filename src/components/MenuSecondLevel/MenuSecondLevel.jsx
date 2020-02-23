@@ -1,7 +1,6 @@
 import React from 'react'
 import { Dropdown } from 'antd'
 import s from './MenuSecondLevel.module.scss'
-import './dropdown.scss'
 import icon01 from './MenuSecondLevel__icons/icon-01-menuSecondLevel__lemonade.svg'
 import icon02 from './MenuSecondLevel__icons/icon-02-menuSecondLevel__gas.svg'
 import icon03 from './MenuSecondLevel__icons/icon-03-menuSecondLevel__flask.svg'
@@ -15,7 +14,7 @@ const MenuSecondLevel = () => {
     <ul className={s.menuSecondLevel}>
       <Dropdown overlay={menuFood}>
         <li className={s.menuItem_food}>
-          <div>
+          <div> 
             <img alt="flat Rack контецнеры" src={icon01} />
           </div>
           <div className={s.menuItem__title_food}>

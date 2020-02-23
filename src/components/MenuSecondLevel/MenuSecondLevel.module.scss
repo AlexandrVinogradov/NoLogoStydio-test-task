@@ -2,7 +2,7 @@
 $border: 1px solid rgba(255, 255, 255, 0.15);
 
 .menuSecondLevel {
-  @include flex();
+  @include flex(); 
 
   .menuItem_food {
     @include flex();
@@ -22,22 +22,22 @@ $border: 1px solid rgba(255, 255, 255, 0.15);
       line-height: 15px;
     }
   }
-  .menuItem_food::after {
-    content: '';
-    border-left: 9px solid transparent;
-    border-right: 9px solid transparent;
-    border-bottom: 11px solid white;
-    position: absolute;
-    margin: 9 auto;
-    top: 135px;
-    left: 84px;
-    opacity: 0;
-    transition: all 0.5s;
-  }
-  .menuItem_food:hover::after {
-    opacity: 1;
-    transition-delay: 0.1s;
-  }
+  // .menuItem_food::after {
+  //   content: '';
+  //   border-left: 9px solid transparent;
+  //   border-right: 9px solid transparent;
+  //   border-bottom: 11px solid white;
+  //   position: absolute;
+  //   margin: 9 auto;
+  //   top: 135px;
+  //   left: 84px;
+  //   opacity: 0;
+  //   transition: all 0.5s;
+  // }
+  // .menuItem_food:hover::after {
+  //   opacity: 1;
+  //   transition-delay: 0.1s;
+  // }
 
   .menuItem_gas {
     @include flex();
@@ -78,22 +78,22 @@ $border: 1px solid rgba(255, 255, 255, 0.15);
       color: white;
     }
   }
-  .menuItem_chemists::after {
-    content: '';
-    border-left: 9px solid transparent;
-    border-right: 9px solid transparent;
-    border-bottom: 11px solid white;
-    position: absolute;
-    margin: 9 auto;
-    top: 135px;
-    left: 435px;
-    opacity: 0;
-    transition: all 0.5s;
-  }
-  .menuItem_chemists:hover::after {
-    opacity: 1;
-    transition-delay: 0.1s;
-  }
+  // .menuItem_chemists::after {
+  //   content: '';
+  //   border-left: 9px solid transparent;
+  //   border-right: 9px solid transparent;
+  //   border-bottom: 11px solid white;
+  //   position: absolute;
+  //   margin: 9 auto;
+  //   top: 135px;
+  //   left: 435px;
+  //   opacity: 0;
+  //   transition: all 0.5s;
+  // }
+  // .menuItem_chemists:hover::after {
+  //   opacity: 1;
+  //   transition-delay: 0.1s;
+  // }
 }
 
 .chevron {

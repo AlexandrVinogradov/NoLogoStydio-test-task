@@ -5,7 +5,7 @@ const menuFood = (
   <Menu>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="/">
-        Спирты пищевые
+        <span className="foodAlcohol">Спирты пищевые</span>
       </a>
     </Menu.Item>
     <Menu.Item>

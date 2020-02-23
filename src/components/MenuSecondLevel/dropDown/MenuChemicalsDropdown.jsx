@@ -1,5 +1,6 @@
 import React from 'react'
 import { Menu } from 'antd'
+import './dropdown.scss'
 import chevronRight from '../MenuSecondLevel__icons/Chevron Right.svg'
 
 const menuChemicals = (

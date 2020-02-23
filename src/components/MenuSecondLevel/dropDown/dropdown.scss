@@ -7,27 +7,10 @@ $shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: $shadow;
   box-shadow: $shadow;
 
-  // .ant-dropdown:before {
-  //   content: '';
-  //   border-left: 9px solid transparent;
-  //   border-right: 9px solid transparent;
-  //   border-bottom: 11px solid red;
-  //   position: absolute;
-  //   margin: 9 auto;
-  //   top: 62px;
-  //   left: 29px;
-  //   opacity: 0;
-  //   transition: all 0.5s;
-  // }
-  // .ant-dropdown:hover::after  {
-  //   opacity: 1;
-  //   transition-delay: 0.1s;
-  // }
-
   .ant-dropdown-menu {
     margin-top: -3px;
     padding-bottom: 12px;
-  
+
     .ant-dropdown-menu-item {
       padding-top: 10px;
       padding-left: 14px;
@@ -52,6 +35,31 @@ $shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 
 .acid {
   padding-right: 41px;
+
+  &:before {
+    content: '';
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 11px solid white;
+    position: absolute;
+    top: -8px;
+    left: 70px;
+
+      @media screen and (max-width: 705px) {
+        left: 250px;
+      }
+  }
+}
+.foodAlcohol {
+  &:before {
+    content: '';
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 11px solid white;
+    position: absolute;
+    top: -8px;
+    left: 70px;
+  }
 }
 .alkalis {
   padding-right: 46px;
@@ -94,3 +102,4 @@ $shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     padding: 15px;
   }
 }
+
